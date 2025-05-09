@@ -1,0 +1,19 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yourcompany.yourapp">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28"/>
+
+    <!-- This tells Android 10+ to use scoped storage -->
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:label="YourAppName"
+        android:icon="@mipmap/ic_launcher">
+        
+        <!-- Flutter auto-generated stuff goes here -->
+    </application>
+</manifest>

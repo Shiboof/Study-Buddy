@@ -1,0 +1,51 @@
+# Flutter & Dart
+.dart_tool/
+.packages
+.pub-cache/
+build/
+flutter_*.png
+.flutter-plugins
+.flutter-plugins-dependencies
+.melos_tool/
+generated_plugin_registrant.dart
+study_buddy_mobile/lib/config/env.dart
+
+# IDEs
+# VS Code
+.vscode/
+# IntelliJ / Android Studio
+.idea/
+*.iml
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Dependency files
+pubspec.lock
+
+# Environment & Config
+.env
+.env.*
+
+# Web build (if using web)
+web/.dart_tool/
+web/build/
+
+# Coverage
+coverage/
+*.lcov
+
+# Logs
+*.log
+
+# Misc
+*.swp
+*.swo
+
+# Firebase / Platform-specific
+.android/
+.ios/
+windows/
+linux/
+macos/

@@ -1,0 +1,72 @@
+# Ignore Python Bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Ignore Logs
+*.log
+*.out
+*.err
+
+# Ignore Environment Variables
+.env
+*.env
+.env.*
+
+# Ignore IDE/Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Build Artifacts
+build/
+dist/
+*.spec
+
+# Ignore Flask Cache and Session Files
+instance/
+*.db
+*.sqlite3
+
+# Ignore Docker-Specific Files
+*.tar
+*.bak
+*.swp
+docker-compose.override.yml
+
+# Ignore App Data
+tasks.json
+study_material.txt
+assets/
+generated_cards.json
+generated_cards.ini
+cards.json
+ui_layout.json
+stored_materials/
+
+# Ignore Flutter Build Files
+study_buddy_mobile/build/
+study_buddy_mobile/.dart_tool/
+study_buddy_mobile/.flutter-plugins
+study_buddy_mobile/.flutter-plugins-dependencies
+study_buddy_mobile/.packages
+study_buddy_mobile/.last_build_id
+study_buddy_mobile/.idea/
+study_buddy_mobile/.vscode/
+study_buddy_mobile/pubspec.lock
+
+# Ignore NGINX Public Directory
+nginx/public/
+
+# Ignore Miscellaneous Files
+*.tmp
+*.bak
+*.swp

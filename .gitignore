@@ -1,0 +1,100 @@
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+.env
+
+# Environment Variables
+.env
+*.env
+.env.*
+
+# Logs
+*.log
+*.out
+*.err
+firebase-debug.log
+
+# OS-Specific Files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Flask Cache and Session Files
+instance/
+*.db
+*.sqlite3
+
+# Docker
+*.tar
+*.bak
+*.swp
+docker-compose.override.yml
+
+# App Data
+tasks.json
+study_material.txt
+assets/
+generated_cards.json
+generated_cards.ini
+cards.json
+ui_layout.json
+stored_materials/
+
+# Flutter Build Files
+study_buddy_mobile/build/
+study_buddy_mobile/.dart_tool/
+study_buddy_mobile/.flutter-plugins
+study_buddy_mobile/.flutter-plugins-dependencies
+study_buddy_mobile/.packages
+study_buddy_mobile/.last_build_id
+study_buddy_mobile/.idea/
+study_buddy_mobile/.vscode/
+study_buddy_mobile/pubspec.lock
+
+# NGINX Public Directory
+nginx/
+
+# Certbot directory
+certbot/
+
+# Docker Compose
+docker-compose.yml
+Dockerfile.backend
+Dockerfile.nginx
+
+# PowerShell Deployment Scripts
+deploy_web_app.ps1
+renew_cert.ps1
+shutdown-docker-nginx.ps1
+
+# Pytest Cache
+.pytest_cache/
+
+# Public Directory (if dynamically generated)
+public/*.tmp
+
+# Miscellaneous
+*.tmp
+*.bak
+*.swp
