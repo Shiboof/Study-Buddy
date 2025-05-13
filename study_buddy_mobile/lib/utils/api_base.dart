@@ -5,7 +5,8 @@ import '../config/env.dart';
 class ApiBase {
   static String get baseUrl {
     if (kIsWeb) {
-      return 'http://localhost:8080/api'; // Only one /api here
+      // ✅ In production, this will be "/studybuddy/api"
+      return '/studybuddy/api';
     } else if (Platform.isAndroid) {
       return 'http://10.0.2.2:8000/api';
     } else {
@@ -14,6 +15,6 @@ class ApiBase {
   }
 
   static Uri endpoint(String path) {
-    return Uri.parse('$baseUrl$path');  // DO NOT ADD /api AGAIN HERE
+    return Uri.parse('$baseUrl$path');
   }
 }

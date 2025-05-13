@@ -1,5 +1,5 @@
 // lib/config/env.dart
-const String localIp = '192.168.254.105';
+const String localIp = 'localhost';
 
 void checkEnv() {
   if (localIp.contains("REPLACE")) {
